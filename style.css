@@ -1,12 +1,13 @@
 .background-color {
-    background-color: #79b791;
+    background-color: #e7dfd6;
 }
 
 .title-head {
     position:relative;
-    border: 20px;
-    border-color: #2191fb;
-    background-color: #172121;
+    border: 5px solid;
+    border-color: #a44200;
+    border-radius: 10%;
+    background-color: #3c1518;
     color: #eef0f2;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
@@ -15,12 +16,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
-}
-
-.title {
-    position: relative;
-    border: 10px;
-    border-color: #2191fb;
+    right: 5px
 }
 
 .links-1 a {
@@ -33,15 +29,236 @@
     left: 120px
 }
 
-.color-box {
-    position: relative;
-    display: flex;
-    height: 200px;
-    width: 1000px;
-    background-color: #172121;
-    align-items: center;
-    justify-content: center;
+#colorbox {
+    color: #eef0f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 450px;
+    width: 300px;
+    background-color: #3c1518;
     margin-top: 10px;
+    border: 5px solid;
+    border-color: #a44200;
+    border-radius: 10%;
 }
 
+#about-me-title {
+    text-decoration: underline;
+}
+    
+#about-me-paragraph {
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+#grad-pic {
+    position:relative;
+    left: 400px;
+    bottom: 450px;
+    height: 400px;
+    width: 500px;
+    border: 5px solid;
+    border-color: #a44200;
+    border-radius: 5%;
+}
+
+#colorline-section {
+    position:relative;
+    left: 950px;
+    bottom: 857px;
+}
+
+#colorline {
+    height: 800px;
+    width: 5px;
+    background-color: #3c1518;
+}
+
+.gaming-container {
+    position: relative;
+    left: 970px;
+    bottom: 1540px
+
+    
+}
+
+#gaming {
+    height: 400px;
+    width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a44200;
+    border-radius: 6px;
+}
+
+#gaming:hover {
+    filter:brightness(80%)
+}
+
+.nba-container {
+    position: relative;
+    left: 1250px;
+    bottom: 887px;
+}
+
+#nba {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a44200;
+    border-radius: 6px;
+}
+
+#nba:hover {
+    filter:brightness(80%)
+}
+
+.music-container {
+    position: relative;
+    left: 980px;
+    bottom: 1515px;
+}
+
+#music {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a44200;
+    border-radius: 6px;
+}
+
+#music:hover {
+    filter:brightness(80%);
+}
+
+.coding-container {
+    position: relative;
+    left: 980px;
+    bottom: 1460px;
+}
+
+#coding {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a44200;
+    border-radius: 6px;
+}
+
+#coding:hover {
+    filter:brightness(80%)
+}
+
+.film-container {
+    position: relative;
+    left: 1250px;
+    bottom: 1672px;
+}
+
+#film {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a44200;
+    border-radius: 6px;
+}
+
+#film:hover {
+    filter:brightness(80%)
+}
+
+.images-container {
+   position: relative;
+    bottom: 320px;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    #grad-pic {
+        position: relative;
+        top: 20px;
+        left: 0px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #gaming {
+        position: relative;
+        right: 650px;
+        height: 150px;
+        width: 400px;
+        top: 215px
+    }
+
+    #music {
+        position: relative;
+        right: 650px;
+        height: 150px;
+        width: 150px;
+        top: 200px
+    }
+
+    #coding {
+        position: relative;
+        right: 650px;
+        height: 150px;
+        width: 150px;
+        top: 200px
+    }
+
+    #nba {
+        position: relative;
+        right: 700px;
+        height: 150px;
+        width: 150px;
+        top: 120px
+    }
+
+    #film {
+        position: relative;
+        right: 700px;
+        height: 150px;
+        width: 150px;
+        top: 30px
+    }
+
+    .links-1 {
+        position: relative;
+        color: #eef0f2;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        top:35px;
+        right: 130px
+    }
+
+    #colorline {
+       display: none;
+        
+    }
+
+    .images-container {
+        position: relative;
+        top: 500px
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .title-head {
+        /* Desktop styles */
+    }
+
+    .links-1 a {
+        /* Desktop styles */
+    }
+
+    #colorbox {
+        /* Desktop styles */
+    }
+}
+
+/* Add more media queries for other screen sizes if needed */
