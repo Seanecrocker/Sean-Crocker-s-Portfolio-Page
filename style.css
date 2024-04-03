@@ -78,8 +78,6 @@
     position: relative;
     left: 970px;
     bottom: 1540px
-
-    
 }
 
 #gaming {
@@ -176,7 +174,6 @@
     bottom: 320px;
 }
 
-/* Tablet styles */
 @media (max-width: 768px) {
     #grad-pic {
         position: relative;
@@ -245,20 +242,3 @@
         top: 500px
     }
 }
-
-/* Desktop styles */
-@media (min-width: 992px) {
-    .title-head {
-        /* Desktop styles */
-    }
-
-    .links-1 a {
-        /* Desktop styles */
-    }
-
-    #colorbox {
-        /* Desktop styles */
-    }
-}
-
-/* Add more media queries for other screen sizes if needed */
